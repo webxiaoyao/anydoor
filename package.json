@@ -1,0 +1,30 @@
+{
+    "name": "anydoor",
+    "version": "1.0.0",
+    "description": "Node Static Web Server",
+     "main": "index.js",
+    "dependencies": {
+        "babel-eslint": "^10.0.3",
+        "eslint": "^6.5.0",
+        "pre-commit": "^1.2.2"
+    },
+    "pre-commit": [
+        "fix",
+        "lint"
+    ],
+    "devDependencies": {},
+    "scripts": {
+        "lint": "eslint .",
+        "fix": "eslint --fix ."
+    },
+    "repository": {
+        "type": "git",
+            "url": "git+https://github.com/webxiaoyao/anydoor.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/webxiaoyao/anydoor/issues"
+    },
+    "homepage": "https://github.com/webxiaoyao/anydoor#readme"
+}
