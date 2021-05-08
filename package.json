@@ -6,7 +6,7 @@
     "dependencies": {
         "babel-eslint": "^10.0.3",
         "eslint": "^6.5.0",
-        "handlebars": "^4.4.0",
+        "handlebars": "^4.7.7",
         "pre-commit": "^1.2.2"
     },
     "pre-commit": [
